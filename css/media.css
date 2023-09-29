@@ -1,0 +1,101 @@
+@media(max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media(max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .headphone__card-second {
+        column-gap: 30px;
+    }
+
+    .phone__card {
+        justify-content: space-around;
+    }
+}
+
+@media(max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .header__banner {
+        height: 90vh;
+    }
+
+    .banner__title {
+        font-size: 80px;
+    }
+
+    .banner__btn span {
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width: 576px) {
+    .container {
+        max-width: auto;
+    }
+
+    .banner__title {
+        font-size: 60px;
+    }
+    .header__logo{
+     padding: 0px 30px;
+    }
+    .header__icon{
+        padding: 0 20px;
+    }
+
+    .cards {
+        padding: 0 50px;
+        flex-direction: column;
+        text-align: center;
+        row-gap: 30px;
+    }
+
+    .cards img {
+        width: 70%;
+    }
+
+    .headphone__card-third p {
+        text-align: center;
+    }
+
+    .stik {
+        width: 1px;
+        height: 45px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width: 440px) {
+    .container {
+        max-width: auto;
+    }
+
+    .header__nav .container {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+
+    .header__nav-list {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+
+    .banner__title {
+        font-size: 40px;
+    }
+}

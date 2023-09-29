@@ -1,0 +1,272 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: "Montserrat";
+    user-select: none;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header__nav {
+    background: #282828;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header__nav .container {
+    padding: 6px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.header__list {
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header__link {
+    color: #FFF;
+    text-align: right;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__shop-icons {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.header__banner {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 38px;
+    padding-bottom: 30px;
+}
+
+.header__banner-img {
+    fill: linear-gradient (180deg, rgba(0, 0, 0, 0.00) 0%, #151515 100%), url(<path-to-image>), lightgray 0px -0.501px / 100% 128.755% no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -2;
+}
+
+.banner__title {
+    color: #FFF;
+    font-family: "Prosto One";
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 75px;
+}
+
+.banner__btn {
+    display: flex;
+    column-gap: 11px;
+    align-items: center;
+    padding: 13px 14px;
+    border-radius: 10px;
+    background: #FFF;
+}
+
+.banner__btn span {
+    color: #171718;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+
+.banner__btn-img {
+    height: 15px;
+}
+
+main {
+    background: #151515;
+}
+
+.headphone__card-first {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.headphone__desc {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    max-width: 538px;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+}
+
+.headphone__card-first img {
+    max-width: 552px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.headphone__card-second {
+    display: flex;
+    column-gap: 87px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.headphone__card-third {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 79px;
+}
+
+.headphone__card-third img {
+    max-width: 268px;
+    width: 100%;
+}
+
+.headphone__card-third p {
+    max-width: 333px;
+    width: 100%;
+    text-align: right;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.headphone__card-third p:nth-last-child(1) {
+    text-align: left;
+}
+
+.stik {
+    width: 61px;
+    height: 1px;
+    background: #C4C4C4;
+}
+
+.phone__cards .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 20px;
+    padding-bottom: 55px;
+}
+
+.card__item {
+    border-radius: 6px;
+    background: #FFF;
+    text-align: center;
+    padding: 15px 47px;
+}
+
+.card__title {
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.card__item-img {
+    margin-bottom: 10px;
+}
+
+.card__desc {
+    color: #000;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.card__btn {
+    color: #FFF;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    background: #151515;
+    padding: 7px 57px;
+}
+
+.footer {
+    background: #282828;
+    box-shadow:
+        0px -4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 0;
+    row-gap: 30px;
+}
+
+.footer__list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.footer__link {
+    color: #FFF;
+    text-align: right;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.footer__icons {
+    display: flex;
+    column-gap: 29px;
+}
